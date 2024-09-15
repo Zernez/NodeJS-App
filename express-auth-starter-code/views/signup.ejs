@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Login</title>
+</head>
+<body>
+    <section class="prompt">
+            <h3>Exercise App</h3>
+            <h1>Sign Up</h1>
+            <hr>
+            <form action="/signup" method="POST">
+                <section>
+                    <label for="username">Username</label>
+                    <input name="username" id="username" type="text" autocomplete="username" required>
+                </section>
+                <section>
+                    <label for="password">Password</label>
+                    <input name="password" id="password" type="text" autocomplete="new-password" required>
+                </section>
+                <button type="submit">Sign Up</button>
+            </form>
+            <hr>
+            <p class="help">Already have an account? <a href="/login">Sign In</a></p>
+    </section>
+    <footer class="info">
+        <p>Created by</p> <a href="linkedin.com/in/fernando-pannullo-b65795133/">Fernando Pannullo</a>
+        <p>Authentication powered by <a>Passport</a></p>
+        <hr>
+    </footer>
+</body>
+</html>

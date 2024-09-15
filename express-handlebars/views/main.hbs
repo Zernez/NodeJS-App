@@ -1,0 +1,13 @@
+<h1> Favourite Movie App </h1>
+
+{{> favMovies}}
+{{> dislikeMovies}}
+
+<h3>Suggested Movie: </h2>
+<ul>
+    {{#each suggestedMovies}}
+    <li class="{{this.color}}">{{this.name}}</li>
+    {{/each}}
+</ul>
+
+`
